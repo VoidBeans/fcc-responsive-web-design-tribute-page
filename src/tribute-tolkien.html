@@ -1,77 +1,210 @@
-<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+<!DOCTYPE html>
+  <html>
+    <body>
+      <div id="main" class="color-preset-1">
+        <div id="title" class="title center-text color-preset-2">
+          <h1 class="emphasis">J.R.R. TOLKIEN</h1>
+        </div>
 
-<link rel="stylesheet" href="tribute-tolkien.css">
+        <div class="quote-container">
+          <div class="quote color-preset-1">
+              <h2 class="emphasis">
+                "Little by little, one travels far."
+              </h2>
+          </div>
+        </div>
 
-<!-- FONT IMPORTS -->
-<link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+        <div id="img-div">
+          <img 
+              id="image"
+              class="image"
+              src="https://user-images.githubusercontent.com/25902798/95551710-98d5d280-0a0b-11eb-8274-f308a6aab46d.jpg"
+              alt="Drawing of Tolkien with a pipe in his old age - by Juliano Batista">
+          <div id="img-caption" class="center-text">
+            Drawing of Tolkien with a pipe in his old age - <strong><i>by Juliano Batista</i></strong>
+          </div>
+        </div>
 
-<body>
-  <div id="main" class="color-preset-1">
-    <div id="title" class="center-text color-preset-2">
-      <h1>J.R.R. TOLKIEN</h1>
-    </div>
+        <div class="quote-container">
+          <div class="quote color-preset-1">
+              <h2 class="emphasis">
+                "Not all those who wander are lost."
+              </h2>
+          </div>
+        </div>
 
-    <div class="center-text color-preset-1">
-      <p>
-        "Little by little, one travels far."
-      </p>
-    </div>
+        <div id="tribute-content">
+          <!-- SECTION: CARDS -->
+          <div class="card-container">
+              <div class="card color-preset-2">
+                <h3 class="emphasis">BORN</h3>
+                <p class="center-text">
+                  January 3, 1892<br>
+                  Bloemfontein, Orange Free State
+                </p>
+              </div>
 
-    <div id="img-div">
-      <img id="image" src="https://www.vision.org/sites/default/files/img/2004winter_bio-jrr-tolkien-speaker-of-footnotes_1920x1080.jpg" alt="tolkien art">
-      <figcaption id="img-caption" class="center">
-        placeholder text
-      </figcaption>
-    </div>
+              <div class="card color-preset-2">
+                <h3 class="emphasis">DIED</h3>
+                <p class="center-text">
+                  September 2, 1973 (aged 81)<br>
+                  Bournermouth, England
+                </p>
+              </div>
 
-    <div id="tribute-content">
-      <div id="tribute-quick-facts">
-          <div id="title-quick-facts">
-            J.R.R. TOLKIEN: A LIFE SUMMARY SIMPLIFIED
+              <div class="card color-preset-2">
+                <h3 class="emphasis">FULL NAME</h3>
+                <p class="center-text">
+                  John Ronald Reuel Tolkien
+                </p>
+              </div>
+
+              <div class="card color-preset-2">
+                <h3 class="emphasis">SPOUSE</h3>
+                <p class="center-text">
+                  Edith Bratt<br>
+                  1916 - 1971
+                </p>
+              </div>
           </div>
 
-          <div class="card color-preset-2">
-            <h3>GENESIS</h3>
-            <p>
-              Born on January 3, 1892 in Bloemfontein, Orange Free State (modern day South Africa).
-            </p>
-          </div>
-
-          <div class="card color-preset-2">
-            <div class="center-container">
-              <h3>COMMISSIONED: WORLD WAR I</h3>
+          <!-- SECTION: ACCORDION -->
+          <div id="accordion-container">
+            <div class="quote-container">
+              <div class="quote color-preset-1">
+                  <h2 class="emphasis">
+                    "Never laugh at live dragons."
+                  </h2>
+              </div>
             </div>
-            <div class="center-container">
+
+            <div class="accordion-header color-preset-2">
+              <div class="accordion-header-content">
+                <h3>EARLY LIFE</h3>
+              </div>
+            </div>
+            <div class="accordion-content">
               <p>
-                July 15, 1915</br>
-                Commissioned as temporary second lieutenant in the Lancashire Fusiliers.
+                Discovering a love for the literary arts at a young age, Tolkien was able to read at the tender age of four and learned to write soon afterwards.
+              </p>
+              <p>
+                Apparently, he developed a fondness for stories involving fairies quite early in life.
+              </p>
+
+              <div class="quote-container">
+                <div class="quote color-preset-1">
+                    <h2 class="emphasis">
+                      "Even the smallest person can change the course of the future."                  
+                    </h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-header color-preset-2">
+              <div class="accordion-header-content">
+                <h3>DARK TIMES: WW1</h3>
+              </div>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Tolkien lived through some of the most turbulent periods of human history, namely the World Wars. Indeed, the First World War broke out when he was in his early 20s.
+              </p>
+                His family members were not shy in expressing their distaste of his decision regarding putting off joining the war efforts when he elected to first complete his degree. Eventually, Tolkien started serving in the War in 1915, and would feature in a few prominent battles, such as the Battle of the Sommes in 1916.
+              <p>
+                Many of Tolkien's closest school friends died in the war - and Tolkien recalled that he himself was not a man born for warfare.
+              </p>
+
+              <div class="quote-container">
+                <div class="quote color-preset-1">
+                    <h2 class="emphasis">
+                      "Faithless is he that says farewell when the road darkens."
+                    </h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-header color-preset-2">
+              <div class="accordion-header-content">
+                <h3>MAJOR WORKS</h3>
+                </div>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Often being credited as the man who brought fantasy to the masses, Tolkien never expected any of his prose to become popular. He was convinced to publish one of his works, simply titled <i>The Hobbit</i>, by a publishing firm called George Allen & Unwin.
+              </p>
+              <p>
+                Published on 21 September 1937, the book was a tremendous success and attracted readers young and old alike. Not much time passed after <i>The Hobbit</i>'s initial release until Tolkien was asked to write a sequal.
+              </p>
+              <p>
+                Tolkien started writing a sequal to <i>The Hobbit</i> in 1937. This sequal, which developed into a gigantic piece of work, was not finished until 1949, and even then Tolkien still made regular changes to it.
+              </p>
+              <p>
+                Eventually split into three separate tomes, <i>The Lord of the Rings</i> became one of the best-selling books of all time.
+              </p>
+
+              <div class="quote-container">
+                <div class="quote color-preset-1">
+                    <h2 class="emphasis">
+                      "It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to."
+                    </h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-header color-preset-2">
+              <div class="accordion-header-content">
+                <h3>POSTHUMOUS PUBLICATIONS</h3>
+              </div>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Although Tolkien had been working on <i>The Silmarillion</i> shortly after the publication of <i>The Hobbit</i>, it wasn't published until after his death. Christopher Tolkien, who edited much of his father's work, was the one who eventually published this work. Tolkien initially presented <i>The Silmarillion</i> as a potential sequal to <i>The Hobbit</i>, although Unwin thought that the work was too obscure and "Celtic".
+              </p>
+              <p>
+                <i>The Silmarillion</i> was eventually published in 1977, roughly four years after J.R.R. Tolkien's death.
+              </p>
+              <p>
+                Christopher Tolkien continued editing much of his father's work, such as the tragic <i>The Children of Húrin</i> (2007) and <i>The Fall of Gondolin</i> (2018), before dying at the age of 95 on 16 January 2020.
+              </p>
+
+              <div class="quote-container">
+                <div class="quote color-preset-1">
+                    <h2 class="emphasis">
+                      "It’s the job that's never started as takes longest to finish."
+                    </h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-header color-preset-2">
+              <div class="accordion-header-content">
+                <h3>FURTHER READING</h3>
+              </div>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Most of the info from this page are from 
+                  <a id="tribute-link" href="https://en.wikipedia.org/wiki/J._R._R._Tolkien" target="_blank">
+                    here.
+                  </a>
+              </p>
+              <p>
+                Tolkien was not perfect, but his life was very interesting and worth the read. I recommend a book called J.R.R Tolkien: A Biography by Humphrey Carpenter.
               </p>
             </div>
           </div>
-
-          <div class="card color-preset-2">
-            <div class="center-container">
-              <h3>MARRIAGE</h3>
-            </div>
-            <p>
-              Married his lifelong partner, Edith in 1916 while an enlisted man in the Great War.
-            </p>
-          </div>
-
-          <div class="card color-preset-2">
-            <h3>DEATH</h3>
-            <p>
-              September 2, 1973 (aged 81)</br>
-              Bournermouth, England
-            </p>
-          </div>
+        </div>
       </div>
+    </body>
 
-      <div id="tribute-info">
-        Tolkien was a fine man.
-      </div>
+    <footer>
 
-      <a id="tribute-link" href="https://en.wikipedia.org/wiki/J._R._R._Tolkien" target="_blank">Further reading</a>
-    </div>
-  </div>
-</body>
+    </footer>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="tribute-tolkien.css">
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="tribute-tolkien.js"></script>
+</html>
